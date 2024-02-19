@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { ModeToggle } from "@/app/components/toggle-mode";
 
 export default function Home () {
   return (
@@ -40,6 +41,7 @@ export default function Home () {
         />
       </div>
       <div>
+        <ModeToggle/>
       <div className="bg-primary text-primary-foreground">Hello</div>
       <div className="bg-warning text-warning-foreground" >Warning</div>
 
